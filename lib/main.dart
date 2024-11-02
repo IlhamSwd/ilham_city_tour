@@ -51,7 +51,7 @@ class HomeScreen extends StatelessWidget {
                     height: 300,
                     width: 150,
                   )
-                  SizedBox(height: 16, width: 16,),
+                  const SizedBox(height: 16, width: 16,),
                   Image.network(
                     'https://picsum.photos/id/174/300/200',
                     fit: BoxFit.cover,
